@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Estilo para el recuadro de tarjeta de identificación */
+#content-box {
+    display: flex;
+    background: linear-gradient(to right, #f3d2ff, #f4d6ff); 
+    border: 2px solid #6a009c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto; /* Centra el recuadro horizontalmente */
+    max-width: 400px; /* Aumenta el ancho para acomodar la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  /* Estilo para la imagen de perfil */
+  #profile-image {
+    flex: 1; /* La imagen ocupa una fracción del espacio disponible */
+    padding-right: 20px; /* Espacio entre la imagen y el contenido */
+  }
+  
+  /* Estilo para la imagen de perfil */
+  #profile-image img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; /* Esto crea un aspecto de imagen de perfil redonda */
+  }
+  
+  /* Estilo para el contenido de la tarjeta */
+  
+  /* Estilo para el botón Consultar */
+  #prueba {
+    background-color: #681a85;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 46%; 
+    border-radius: 4px;
+  }
+  #pruebaruc {
+    background-color: #681a85;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 46%; 
+    border-radius: 4px;
+  }
+  
+  /* Estilos para los campos de texto y etiquetas */
+  input[type="text"],
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para las etiquetas de nombres y apellidos */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Estilo para la respuesta de consulta */
+  #respuesta {
+    font-weight: bold;
+    color: #880eca;
+    margin-top: 20px;
+  }
+  
+
